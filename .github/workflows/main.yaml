@@ -11,7 +11,7 @@ jobs:
   vendorito:
     runs-on: ubuntu-latest
     steps:
-      - uses: Neosperience/vendorito@v0.1.0
+      - uses: Neosperience/vendorito@bf358270db00f64ed5daf1ce0f4d90075844c4bf
         with:
           source: minio/minio
           target: quay.io/hamcha/minio-mirror
